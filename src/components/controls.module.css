@@ -1,0 +1,69 @@
+.menuButton{display:none;position:fixed;z-index:20;top:20px;left:20px;width:44px;height:44px;border:0;border-radius:50%;background:var(--red);color:var(--light);font-size:24px}
+.sideNav{position:fixed;z-index:10;left:38px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:9px;color:#fff}
+.sideNav a{text-decoration:none;font-size:14px;opacity:.68;transition:opacity .2s,transform .2s,color .2s}
+.sideNav a[data-on-light="true"]{color:var(--dark)}
+.sideNav a:hover,.sideNav a:focus-visible,.sideNav .active{opacity:1;transform:translateX(4px);text-decoration:underline;text-underline-offset:5px}
+.shareButton{position:fixed;z-index:12;right:50px;top:30px;border:0;border-radius:99px;background:var(--red);color:var(--light);padding:11px 20px;font-size:14px;transition:transform .2s}
+.shareButton:hover{transform:scale(1.03)}.shareButton:active{transform:scale(.98)}
+.overlay{position:fixed;z-index:50;inset:0;background:var(--dark);color:var(--light);padding:80px min(8vw,80px);overflow:auto;display:flex;flex-direction:column;align-items:center}
+.close{position:absolute;top:20px;right:22px;border:0;background:none;color:var(--light);font-size:48px;line-height:1}
+.menuNav{display:grid;grid-template-columns:repeat(2,minmax(140px,1fr));gap:28px 20px;width:min(100%,560px)}
+.menuNav a{text-decoration:none;border-bottom:2px solid var(--red);padding:0 0 18px;font-size:22px}.menuNav .active{color:var(--accent)}
+.menuBrand{font:clamp(32px,7vw,80px)/1 FHR80,sans-serif;color:var(--accent);text-align:center;margin:auto 0 40px}
+.menuShare{border:0;background:var(--light);color:var(--red);border-radius:99px;padding:12px 24px;text-transform:uppercase}
+@media(max-width:1199px){.sideNav{display:none}.menuButton{display:block}.shareButton{right:20px;top:20px}}
+@media(max-width:767px){.shareButton{position:absolute}.overlay{padding:95px 16px 36px}.menuNav a{font-size:16px}.menuBrand{font-size:40px}}
+@media(prefers-reduced-motion:no-preference){.shareButton{animation:shareEnter .6s .3s both ease-out}@keyframes shareEnter{from{opacity:0;translate:0 20px}to{opacity:1;translate:0 0}}}
+.shareButton{position:absolute;display:flex;align-items:center;gap:10px}.shareButton img{display:block}.menuButton{left:auto;right:30px;top:27px;width:40px;height:40px;border-radius:0;background:transparent;padding:0}.menuButton img{width:40px;height:40px}.sideNav{left:60px}.shareButton{min-height:43px}
+.sharePanel{position:absolute;z-index:19;top:80px;right:30px;width:452px;max-width:calc(100vw - 40px);padding:10px 18px;background:#322525;border-radius:16px;box-shadow:0 12px 32px rgb(0 0 0 / .18)}
+@media(min-width:768px) and (max-width:1199px){.shareButton{right:100px;top:25px}}
+@media(min-width:768px) and (max-width:1199px){.sharePanel{right:80px}}
+@media(max-width:767px){.shareButton{display:none}.menuButton{right:15px;top:27px}}
+@media(max-width:767px){.sharePanel{display:none}}
+
+.menuButton,.close,.menuShare{transition:opacity .2s ease-out,transform .2s ease-out,background-color .2s ease-out}
+.menuButton:hover,.close:hover{opacity:.72}
+.menuButton:active,.close:active,.menuShare:active{transform:scale(.98)}
+.menuShare:hover{background:var(--light);transform:scale(1.035)}
+.menuNav a{transition:color .2s ease-out,border-color .2s ease-out}
+.menuNav a:hover,.menuNav a:focus-visible{color:var(--accent);border-color:var(--accent)}
+@media(prefers-reduced-motion:reduce){
+  .sideNav a:hover,.sideNav a:focus-visible,.sideNav .active,
+  .shareButton:hover,.shareButton:active,.menuButton:active,.close:active,
+  .menuShare:hover,.menuShare:active{transform:none}
+}
+
+/* Expanded tablet and mobile menus follow the two local Figma frames. */
+.overlay{padding:0;display:block;background:var(--light);color:var(--dark)}
+.menuTop{position:relative;min-height:724px;background:var(--menu-dark);color:var(--light);padding:1px 30px 30px}
+.menuLogos{position:absolute;top:30px;left:30px;display:flex;align-items:center;gap:22px}
+.menuLogos a,.menuPartners a{display:block}
+.menuLogos img{height:52px;width:auto;max-width:none;filter:brightness(0) invert(1)}
+.close{top:30px;right:30px;width:40px;height:40px;padding:0;font-size:0}
+.close span,.close span::after{position:absolute;left:3px;top:19px;display:block;width:36px;height:2px;background:var(--light);content:'';transform:rotate(45deg)}
+.close span::after{left:0;top:0;transform:rotate(90deg)}
+.menuNav{margin:131px auto 0;width:100%;max-width:none;grid-template-columns:165px 165px;justify-content:start;gap:32px 200px}
+.menuNav a{font-size:15px;line-height:20px;text-transform:uppercase;padding:0 0 10px;border-bottom:2px solid var(--light)}
+.menuNav .active{color:var(--light);font-weight:500}
+.menuBrand{display:flex;flex-direction:column;align-items:center;width:440px;max-width:100%;margin:35px auto 0;text-align:center}
+.menuBrand img:first-child{width:100%;height:auto}
+.menuBrand img:last-child{width:70.3%;height:auto;margin:-5px auto 0}
+.menuPartners{display:flex;align-items:center;justify-content:center;gap:22px;margin:6px auto 0}
+.menuPartners img{height:60px;width:auto;max-width:none}
+.menuBottom{min-height:205px;background:var(--light);display:flex;flex-direction:column;align-items:center}
+.menuCredits{align-self:stretch;margin:auto 0 0;padding:0 30px 18px;color:var(--red);font-size:12px;line-height:18px}
+.menuCredits a{text-decoration:none;background-image:linear-gradient(currentColor,currentColor);background-position:0 100%;background-repeat:no-repeat;background-size:0 1px;transition:background-size .2s ease-out}
+.menuCredits a:hover{background-size:100% 1px}
+@media(max-width:767px){
+  .menuTop{min-height:643px;padding:1px 16px 22px}
+  .menuLogos{top:29px;left:16px;gap:14px}
+  .menuLogos img{height:35px}
+  .close{top:27px;right:15px}
+  .menuNav{margin-top:119px;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 16px}
+  .menuNav a{font-size:15px}
+  .menuBrand{width:350px;margin-top:30px}
+  .menuPartners{margin-top:4px;gap:18px}
+  .menuPartners img{height:50px}
+  .menuBottom{min-height:294px}
+  .menuCredits{padding:0 16px 12px;line-height:17px}
+}
