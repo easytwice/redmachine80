@@ -28,7 +28,7 @@ export default function Home() {
       <div className={s.videoHeader}><Media src="/assets/2020/mask-group-12.avif" alt="" sizes="100vw" /><h2 id="video-title" data-reveal data-reveal-heading>Широка страна<br />моя родная</h2></div>
       <div className={s.videoCopy}>
         <p className={s.videoLead}>{designContent['4231:6092'][0]}</p>
-        <div className={s.videoColumns}><p>{designContent['4231:6094'][0]}</p><p>{designContent['4231:6095'][0]}</p></div>
+        <div className={s.videoColumns}><p>Тула и Тольятти, Челябинск <br className={s.mobileVideoBreak} />и Красноярск, Омск и Новосибирск — <br className={s.mobileVideoBreak} />во всех городах матчи сборной <br className={s.mobileVideoBreak} />проходили при аншлагах, доказывая, <br className={s.mobileVideoBreak} />что в новых условиях интерес к хоккею <br className={s.mobileVideoBreak} />в стране не только не ослабевает, <br className={s.mobileVideoBreak} />но и постоянно растет.</p><p>{designContent['4231:6095'][0]}</p></div>
         <VideoPlayer />
       </div>
       <div className={s.videoImage} data-reveal><Media src="/assets/2020/footer.avif" alt="Болельщики поддерживают сборную России на хоккейной арене" sizes="100vw" /></div>

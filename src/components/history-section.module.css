@@ -159,6 +159,7 @@
 /* Keep enlarged artwork inside its frame and every caption above the photo. */
 .standardText{display:revert}.tabletText{display:none}
 .photo picture,.mosaic picture{display:block;overflow:hidden}
+.era1970 .intro>.photo picture{overflow:visible}
 .photo img,.mosaic img{display:block}
 .photo figcaption{position:relative;z-index:2;max-width:100%;overflow-wrap:anywhere}
 .era1940 .heading,.era1940 .follow>.text,.era1950 .heading{position:relative;z-index:2}
