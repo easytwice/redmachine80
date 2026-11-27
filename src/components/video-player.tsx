@@ -3,8 +3,7 @@
 import { useEffect, useRef, useState } from 'react';
 import s from './video-player.module.css';
 
-const publicKey = 'https://disk.yandex.ru/d/jLjkohis_WiX6w';
-const filePath = '/2025-12-14_ рилс_1-compressed.mp4';
+const videoPath = '/videos/red-machine-80.mp4';
 
 export function VideoPlayer() {
   const dialog = useRef<HTMLDialogElement>(null);
@@ -17,21 +16,10 @@ export function VideoPlayer() {
     return () => dialog.current?.removeEventListener('close', onClose);
   }, []);
 
-  async function open() {
+  function open() {
     dialog.current?.showModal();
     setError(false);
-    try {
-      const endpoint = new URL('https://cloud-api.yandex.net/v1/disk/public/resources/download');
-      endpoint.searchParams.set('public_key', publicKey);
-      endpoint.searchParams.set('path', filePath);
-      const response = await fetch(endpoint);
-      if (!response.ok) throw new Error(`Video request failed: ${response.status}`);
-      const data: { href?: string } = await response.json();
-      if (!data.href) throw new Error('Video URL missing');
-      setSource(data.href);
-    } catch {
-      setError(true);
-    }
+    setSource(videoPath);
   }
 
   return <>
@@ -39,7 +27,7 @@ export function VideoPlayer() {
     <dialog className={s.dialog} ref={dialog} aria-label="Видео об отечественном хоккее" onClick={event => { if (event.target === dialog.current) dialog.current?.close(); }}>
       <div className={s.content}>
         <button className={s.close} type="button" onClick={() => dialog.current?.close()} aria-label="Закрыть видео">×</button>
-        {source ? <video src={source} controls autoPlay playsInline onError={() => { setSource(''); setError(true); }} /> : error ? <p>Не удалось загрузить видео. <a href={publicKey} target="_blank" rel="noopener noreferrer">Открыть оригинал</a></p> : <p>Загружаем видео…</p>}
+        {source ? <video src={source} controls autoPlay playsInline onError={() => { setSource(''); setError(true); }} /> : error ? <p>Не удалось загрузить видео. <a href={videoPath} target="_blank" rel="noopener noreferrer">Открыть видео</a></p> : null}
       </div>
     </dialog>
   </>;

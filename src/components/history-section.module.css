@@ -1,14 +1,15 @@
-.era{position:relative;isolation:isolate;background:var(--dark);color:var(--light);overflow:clip;padding:120px 0}.background{position:absolute;inset:0 0 auto;z-index:-1}.background img{width:100%;height:auto}.row{width:min(100% - 80px,1006px);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}.intro{margin-bottom:50px}.photo{margin:0;min-width:0;position:relative}.photo img{width:100%;height:auto}.photo figcaption,.caption{background:var(--caption-red);color:var(--light);padding:5px 8px;font-size:12px;line-height:1.3;display:table}.heading h2{font:500 28px/1.1 Onest,sans-serif;color:var(--accent);margin:0 0 12px}.heading h2 span{display:block;font:70px/.9 FHR80,sans-serif;text-transform:uppercase;margin-bottom:14px}.heading p,.text p,.coach p,.extra{font-size:17px;line-height:23px;margin:0;white-space:pre-line}.text h3{font:500 28px/1.1 Onest,sans-serif;color:var(--accent);margin:0 0 10px}.intro>.photo{max-width:400px}.era1940 .intro,.era1950 .intro{grid-template-columns:400px 450px;gap:70px}.era1940 .intro{margin-left:max(40px,calc((100% - 1440px)/2 + 284px));width:auto;margin-right:70px}.era1940 .follow{margin-top:50px}.era1950,.era1970,.era2000{background:var(--light);color:var(--dark)}.era1950 .background{opacity:.55}.medalPhoto{position:relative;margin-bottom:32px}.medal{position:absolute;width:132px;right:-50px;bottom:-24px;z-index:1}.medal img{width:100%;height:auto}.fifties{align-items:start;gap:116px;margin-top:100px}.fifties>.photo{margin-top:-100px;max-width:400px}.era1960{padding-top:420px}.era1960>.heading{display:grid;grid-template-columns:260px 1fr;gap:24px;align-items:center;padding:35px 50px;max-width:825px;margin:0 auto 100px;background:var(--dark)}.coach{max-width:900px;padding:0 24px;margin:auto;text-align:center}.coach>.photo{max-width:500px;margin:auto}.portrait{display:block;width:180px;position:relative;margin:-90px auto -5px}.portrait img{width:100%;height:auto}.coach h3{font:64px/1 FHR80,sans-serif;text-transform:uppercase;color:var(--accent);margin:0 0 12px}.coach h4{color:var(--gold);font:24px/1.2 FHR80,sans-serif;letter-spacing:.35em;text-transform:uppercase;margin:0 0 25px}.full{display:block;width:100%}.full img{width:100%;height:auto}.era1970{padding-bottom:0}.era1970 .intro{width:min(100% - 80px,1200px)}.era1970 .intro>.photo{max-width:580px}.era1970 .heading{text-align:center}.seventiesCopy{max-width:560px;margin:0 auto -50px;text-align:center;position:relative;z-index:1}.seventiesCopy h3{font:60px/.95 FHR80,sans-serif;text-transform:uppercase}.seventiesCopy .caption{margin:25px auto 0}.era1980{padding:0 0 120px;background:var(--red)}.era1980>.heading{position:relative;background:var(--red);max-width:650px;margin:-200px 12% 70px auto;padding:30px}.era1980 .heading h2{color:var(--light)}.era1980 .heading h2 span{font-size:64px}.champions{max-width:900px;margin:auto;text-align:center;padding:0 30px}.champions h3{font:26px/1.2 FHR80,sans-serif;letter-spacing:.35em;text-transform:uppercase;color:var(--gold);margin:0 0 18px}.champions>p{max-width:650px;margin:0 auto 35px;font-size:16px;line-height:1.5}.champions>div{display:grid;grid-template-columns:repeat(6,1fr);gap:20px}.champions figure{margin:0}.champions img{width:100%;height:auto;aspect-ratio:1}.champions figcaption{font-size:14px;margin-top:8px}.era1990{padding-bottom:0}.ninetiesText{width:min(100% - 80px,1006px);margin:auto}.ninetiesText>.text{max-width:470px}.era1990>.full{margin-top:-80px}.era2000 .intro{grid-template-areas:'copy image'}.era2000 .intro>.photo{grid-area:image;max-width:500px}.era2000 .heading{grid-area:copy}.strip{display:block;margin:55px 0 -90px}.strip img{width:100%;height:auto}.era2000 .follow{position:relative;align-items:end}.era2000 .follow>.photo{max-width:400px}.era2010{padding-top:0}.era2010>.full{margin-bottom:-60px}.era2010 .intro{position:relative}.era2010 .intro>.photo{max-width:500px}.era2010 .follow{margin-top:100px}.era2010 .medal{left:-50px;right:auto;top:-40px;bottom:auto}.era2020{background:linear-gradient(var(--red) 0 44%,var(--light) 44%);color:var(--dark)}.era2020 .intro>.photo{max-width:500px}.era2020 .heading h2 span{color:var(--light);font-size:110px}.era2020 .follow{align-items:start}.era2020 .follow>div:last-child{margin-top:-180px}.extra{margin-top:35px}
+.era{position:relative;isolation:isolate;background:var(--dark);color:var(--light);overflow:clip;padding:120px 0}.background{position:absolute;inset:0 0 auto;z-index:-1}.background img{width:100%;height:auto}.row{width:min(100% - 80px,1006px);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}.intro{margin-bottom:50px}.photo{margin:0;min-width:0;position:relative}.photo img{width:100%;height:auto}.photo figcaption,.caption{background:var(--caption-red);color:var(--light);padding:5px 8px;font-size:12px;line-height:1.3;display:table}.heading h2{font:500 28px/1.1 Onest,sans-serif;color:var(--accent);margin:0 0 12px}.heading h2 span{display:block;font:70px/.9 FHR80,sans-serif;text-transform:uppercase;margin-bottom:14px}.heading p,.text p,.coach p,.extra{font-size:17px;line-height:23px;margin:0;white-space:pre-line}.text h3{font:500 28px/1.1 Onest,sans-serif;color:var(--accent);margin:0 0 10px}.intro>.photo{max-width:400px}.era1940 .intro,.era1950 .intro{grid-template-columns:400px 450px;gap:70px}.era1940 .intro{margin-left:max(40px,calc((100% - 1440px)/2 + 284px));width:auto;margin-right:70px}.era1940 .follow{margin-top:50px}.era1950,.era1970,.era2000{background:var(--light);color:var(--dark)}.era1950 .background{opacity:.55}.medalPhoto{position:relative;margin-bottom:32px}.medal{position:absolute;width:132px;right:-50px;bottom:-24px;z-index:1}.medal img{width:100%;height:auto}.fifties{align-items:start;gap:116px;margin-top:100px}.fifties>.photo{margin-top:-100px;max-width:400px}.era1960{padding-top:420px}.era1960>.heading{display:grid;grid-template-columns:260px 1fr;gap:24px;align-items:center;padding:35px 50px;max-width:825px;margin:0 auto 100px;background:var(--dark)}.coach{max-width:900px;padding:0 24px;margin:auto;text-align:center}.coach>.photo{max-width:500px;margin:auto}.portrait{display:block;width:180px;position:relative;margin:-90px auto -5px}.portrait img{width:100%;height:auto}.coach h3{font:87px/1 FHR80,sans-serif;text-transform:uppercase;color:var(--accent);margin:0 0 12px}.coach h4{color:var(--gold);font:26px/1.2 FHR80,sans-serif;letter-spacing:.69em;text-transform:uppercase;margin:0 0 25px}.full{display:block;width:100%}.full img{width:100%;height:auto}.era1970{padding-bottom:0}.era1970 .intro{width:min(100% - 80px,1200px)}.era1970 .intro>.photo{max-width:580px}.era1970 .heading{text-align:center}.seventiesCopy{max-width:560px;margin:0 auto -50px;text-align:center;position:relative;z-index:1}.seventiesCopy h3{font:60px/.95 FHR80,sans-serif;text-transform:uppercase}.seventiesCopy .caption{margin:25px auto 0}.era1980{padding:0 0 120px;background:var(--red)}.era1980>.heading{position:relative;background:var(--red);max-width:650px;margin:-200px 12% 70px auto;padding:30px}.era1980 .heading h2{color:var(--light)}.era1980 .heading h2 span{font-size:64px}.champions{max-width:900px;margin:auto;text-align:center;padding:0 30px}.champions h3{font:26px/1.2 FHR80,sans-serif;letter-spacing:.35em;text-transform:uppercase;color:var(--gold);margin:0 0 18px}.champions>p{max-width:650px;margin:0 auto 35px;font-size:16px;line-height:1.5}.champions>div{display:grid;grid-template-columns:repeat(6,1fr);gap:20px}.champions figure{margin:0}.champions img{width:100%;height:auto;aspect-ratio:1}.champions figcaption{font-size:14px;margin-top:8px}.era1990{padding-bottom:0}.ninetiesText{width:min(100% - 80px,1006px);margin:auto}.ninetiesText>.text{max-width:470px}.era1990>.full{margin-top:-80px}.era2000 .intro{grid-template-areas:'copy image'}.era2000 .intro>.photo{grid-area:image;max-width:500px}.era2000 .heading{grid-area:copy}.strip{display:block;margin:55px 0 -90px}.strip img{width:100%;height:auto}.era2000 .follow{position:relative;align-items:end}.era2000 .follow>.photo{max-width:400px}.era2010{padding-top:0}.era2010>.full{margin-bottom:-60px}.era2010 .intro{position:relative}.era2010 .intro>.photo{max-width:500px}.era2010 .follow{margin-top:100px}.era2010 .medal{left:-50px;right:auto;top:-40px;bottom:auto}.era2020{background:linear-gradient(var(--red) 0 44%,var(--light) 44%);color:var(--dark)}.era2020 .intro>.photo{max-width:500px}.era2020 .heading h2 span{color:var(--light);font-size:110px}.era2020 .follow{align-items:start}.era2020 .follow>div:last-child{margin-top:-180px}.extra{margin-top:35px}
 @media(max-width:1199px){.row,.era1940 .intro,.era1950 .intro{width:calc(100% - 60px);margin-left:30px;margin-right:30px;grid-template-columns:1fr 1fr;gap:42px}.heading h2{font-size:26px}.heading h2 span{font-size:64px}.heading p,.text p,.extra{font-size:16px;line-height:23px}.era1960{padding-top:270px}.era1960>.heading{margin-left:30px;margin-right:30px;padding:25px;grid-template-columns:220px 1fr}.era1980>.heading{margin:-100px 30px 65px auto}.era2020 .follow>div:last-child{margin-top:-90px}.seventiesCopy{margin-bottom:0}.era1990>.full{margin-top:0}}
-@media(max-width:767px){.era{padding:60px 0}.row,.era1940 .intro,.era1950 .intro,.era1970 .intro{display:flex;flex-direction:column;align-items:stretch;width:calc(100% - 32px);margin:0 16px;gap:26px}.intro>.photo{width:min(100%,300px);align-self:center}.heading h2{font-size:24px}.heading h2 span{font-size:56px}.heading p,.text p,.coach p,.extra{font-size:15px;line-height:21px}.text h3{font-size:24px}.follow{margin-top:45px!important}.era1940 .follow>.text{order:2}.fifties{margin-top:50px!important}.fifties>.photo{margin-top:0;order:-1;width:300px;align-self:center}.medal{width:100px;right:0}.era1960{padding-top:200px}.era1960>.heading{display:block;margin:0 16px 45px;padding:20px}.era1960 .heading p{margin-top:20px}.portrait{width:130px;margin-top:-65px}.coach h3{font-size:43px}.coach h4{font-size:18px;letter-spacing:.22em}.era1970{padding-bottom:0}.seventiesCopy{padding:40px 16px 25px}.seventiesCopy h3{font-size:44px}.era1980{padding:0 0 60px}.era1980>.heading{margin:0;padding:30px 16px;max-width:none}.champions>div{grid-template-columns:repeat(3,1fr);gap:20px 12px}.champions{padding:0 16px}.champions h3{font-size:23px}.champions figcaption{font-size:12px}.era1990{padding-bottom:0}.ninetiesText{width:calc(100% - 32px);margin-top:35px}.era2000 .intro>.photo{order:2}.strip{margin:35px 0 -30px}.era2010{padding-top:0}.era2010>.full{margin-bottom:30px}.era2010 .medal{width:100px;left:0;top:-30px}.era2020 .heading{order:-1}.era2020 .heading h2 span{font-size:90px}.era2020 .follow>div:last-child{margin:0}.era2020 .follow>.text{order:2}.extra{margin-top:25px}}
+@media(max-width:767px){.era{padding:60px 0}.row,.era1940 .intro,.era1950 .intro,.era1970 .intro{display:flex;flex-direction:column;align-items:stretch;width:calc(100% - 32px);margin:0 16px;gap:26px}.intro>.photo{width:min(100%,300px);align-self:center}.heading h2{font-size:24px}.heading h2 span{font-size:56px}.heading p,.text p,.coach p,.extra{font-size:15px;line-height:21px}.text h3{font-size:24px}.follow{margin-top:45px!important}.era1940 .follow>.text{order:2}.fifties{margin-top:50px!important}.fifties>.photo{margin-top:0;order:-1;width:300px;align-self:center}.medal{width:100px;right:0}.era1960{padding-top:200px}.era1960>.heading{display:block;margin:0 16px 45px;padding:20px}.era1960 .heading p{margin-top:20px}.portrait{width:130px;margin-top:-65px}.coach h3{font-size:49px}.coach h4{font-size:21px;letter-spacing:.22em}.era1970{padding-bottom:0}.seventiesCopy{padding:40px 16px 25px}.seventiesCopy h3{font-size:44px}.era1980{padding:0 0 60px}.era1980>.heading{margin:0;padding:30px 16px;max-width:none}.champions>div{grid-template-columns:repeat(3,1fr);gap:20px 12px}.champions{padding:0 16px}.champions h3{font-size:23px}.champions figcaption{font-size:12px}.era1990{padding-bottom:0}.ninetiesText{width:calc(100% - 32px);margin-top:35px}.era2000 .intro>.photo{order:2}.strip{margin:35px 0 -30px}.era2010{padding-top:0}.era2010>.full{margin-bottom:30px}.era2010 .medal{width:100px;left:0;top:-30px}.era2020 .heading{order:-1}.era2020 .heading h2 span{font-size:90px}.era2020 .follow>div:last-child{margin:0}.era2020 .follow>.text{order:2}.extra{margin-top:25px}}
 
 .era1940 .heading p,.era1940 .text p,
 .era1990 .heading p,.era1990 .text p,
 .era2010 .heading p,.era2010 .text p{color:var(--text-light)}
+.championSurname{text-transform:uppercase}
 .signature{display:block;width:244px;height:auto;margin:10px auto 0}.champions .olympicRings{display:block;width:97px;height:44px;margin:0 auto 24px;aspect-ratio:auto}
 /* Phase 3: the first decade, measured in the three supplied frames. */
 @media(min-width:1200px){.era1940{min-height:1040px;padding:120px 0 128px}.era1940 .intro{grid-template-columns:400px 450px;gap:70px;align-items:start;margin-left:max(40px,calc((100% - 1443px)/2 + 283.86px));margin-bottom:49.35px}.era1940 .intro .heading{margin-top:60.5px}.era1940 .follow{grid-template-columns:450px 500px;width:1006px;margin:0 0 0 max(40px,calc((100% - 1443px)/2 + 284px));gap:56px}.era1940 .photo figcaption{font-size:14px;line-height:19px;padding:2px 8px}.era1940 .heading h2 span{letter-spacing:.04em}.era1940 .heading p,.era1940 .text p{font-size:16px;line-height:23px;letter-spacing:.03em}.era1940 .heading h2,.era1940 .text h3{font-size:28px;line-height:29px}.era1940 .heading h2 span{line-height:63px;margin-bottom:10px}}
-@media(min-width:768px) and (max-width:1199px){.era1940{min-height:1024px;padding:218px 0 120px}.era1940 .intro{grid-template-columns:300px 1fr;gap:42px;align-items:start;margin-bottom:66px}.era1940 .intro>.photo{margin-top:2.5px}.era1940 .heading h2 span{font-size:70px;line-height:63px;letter-spacing:.04em;margin-bottom:10px}.era1940 .heading h2{font-size:28px;line-height:29px;margin-bottom:20px}.era1940 .heading p,.era1940 .text p{font-size:16px;line-height:23px;letter-spacing:.03em}.era1940 .follow{grid-template-columns:344px 340px;gap:26px;align-items:start;margin:0 30px 0 28px}.era1940 .text h3{font-size:28px;line-height:29px}.era1940 .photo figcaption{font-size:14px;line-height:19px;max-width:235px;padding:2px 8px}}
+@media(min-width:768px) and (max-width:1199px){.era1940{min-height:1024px;padding:218px 0 120px}.era1940 .intro{grid-template-columns:300px 1fr;gap:42px;align-items:start;margin-bottom:66px}.era1940 .intro>.photo{margin-top:2.5px}.era1940 .heading h2 span{font-size:70px;line-height:63px;letter-spacing:.04em;margin-bottom:10px}.era1940 .heading h2{font-size:28px;line-height:29px;margin-bottom:20px}.era1940 .heading p,.era1940 .text p{font-size:16px;line-height:23px;letter-spacing:.03em;font-weight:400}.era1940 .heading p{max-width:344px}.era1940 .follow{grid-template-columns:344px 340px;gap:26px;align-items:start;margin:0 30px 0 28px}.era1940 .text h3{font-size:28px;line-height:29px}.era1940 .photo figcaption{font-size:13px;line-height:19px;letter-spacing:.03em;width:235px;max-width:100%;padding:2px 8px}}
 @media(max-width:767px){.era1940{min-height:1238px;padding:98px 0 60px}.era1940 .intro{gap:35.8px}.era1940 .intro>.photo{width:260px}.era1940 .photo figcaption{font-size:14px;line-height:19px;padding:2px 8px;max-width:260px}.era1940 .heading h2{font-size:19px;line-height:19px;margin-bottom:10px}.era1940 .heading h2 span{font-size:32px;line-height:32px;margin-bottom:4px;letter-spacing:.04em}.era1940 .heading p,.era1940 .text p{font-size:15px;line-height:20px;letter-spacing:.03em}.era1940 .follow{margin-top:75px!important;gap:26.66px}.era1940 .follow>.photo{width:290px;align-self:center}.era1940 .text h3{font-size:19px;line-height:19px;margin-bottom:10px}}
 
 @media(max-width:767px){.era1940 .follow>.photo{margin-right:10px}}
@@ -45,17 +46,20 @@
   .photo picture,.mosaic picture{display:block;overflow:hidden}
   .photo figcaption{position:relative;z-index:1}
   .photo img,.mosaic img{transition:transform .45s cubic-bezier(.2,.7,.2,1)}
-  .era .photo:hover img,.era .mosaic:hover img{transform:scale(1.045)}
+  .era .photo:hover img,.era1970 .mosaic:hover img{transform:scale(1.045)}
+  .era1940 .follow>.photo:hover img{transform:none}
+  .era1950 .medalPhoto .photo:hover img{transform:none}
+  .era1970 .intro>.photo:hover img{transform:none}
 }
 
 @media(prefers-reduced-motion:no-preference){
-  :global(.reveal-ready) .era2010 [data-reveal] picture img,
+  :global(.reveal-ready) .era2010 .photo[data-reveal] picture img,
   :global(.reveal-ready) .era2020 [data-reveal] picture img{transition:transform .8s cubic-bezier(.2,.7,.2,1);transform:scale(1.07)}
-  :global(.reveal-ready) .era2010 [data-reveal]:global(.is-visible) picture img,
+  :global(.reveal-ready) .era2010 .photo[data-reveal]:global(.is-visible) picture img,
   :global(.reveal-ready) .era2020 [data-reveal]:global(.is-visible) picture img{transform:scale(1)}
 }
 @media(min-width:768px) and (hover:hover) and (prefers-reduced-motion:no-preference){
-  :global(.reveal-ready) .era2010 [data-reveal]:global(.is-visible):hover picture img,
+  :global(.reveal-ready) .era2010 .photo[data-reveal]:global(.is-visible):hover picture img,
   :global(.reveal-ready) .era2020 [data-reveal]:global(.is-visible):hover picture img{transform:scale(1.045)}
 }
 
@@ -87,6 +91,7 @@
   .era2000{min-height:1119px}
 }
 
+
 @media(min-width:768px) and (hover:hover) and (prefers-reduced-motion:no-preference){
   .photoPair picture,.futurePhotos picture{overflow:hidden}
   .photoPair img,.futurePhotos img{transition:transform .45s cubic-bezier(.2,.7,.2,1)}
@@ -109,13 +114,32 @@
   :global(.reveal-ready) .championGrid:global(.is-visible) figure{transform:none}
 }
 
+/* In the 1970s, reveal the decade, title and paragraph in order. */
+.era1970 .heading h2 .headingTitle{display:block;font:inherit;letter-spacing:inherit;text-transform:inherit;margin:0}
+@media(prefers-reduced-motion:no-preference){
+  :global(.reveal-ready) .era1970 .heading[data-reveal],
+  :global(.reveal-ready) .era1970 .seventiesCopy .text[data-reveal]{opacity:1;translate:0 0}
+  :global(.reveal-ready) .era1970 .heading[data-reveal] h2{opacity:1;translate:0 0}
+  :global(.reveal-ready) .era1970 .heading[data-reveal] h2>span,
+  :global(.reveal-ready) .era1970 .heading[data-reveal] p,
+  :global(.reveal-ready) .era1970 .seventiesCopy .text[data-reveal] h3,
+  :global(.reveal-ready) .era1970 .seventiesCopy .text[data-reveal] p{transition:opacity .6s ease-out,translate .6s ease-out}
+  :global(.reveal-ready) .era1970 .heading[data-reveal]:not(:global(.is-visible)) h2>span,
+  :global(.reveal-ready) .era1970 .heading[data-reveal]:not(:global(.is-visible)) p,
+  :global(.reveal-ready) .era1970 .seventiesCopy .text[data-reveal]:not(:global(.is-visible)) h3,
+  :global(.reveal-ready) .era1970 .seventiesCopy .text[data-reveal]:not(:global(.is-visible)) p{opacity:0;translate:0 30px}
+  :global(.reveal-ready) .era1970 .heading[data-reveal]:global(.is-visible) .headingTitle{transition-delay:.45s}
+  :global(.reveal-ready) .era1970 .heading[data-reveal]:global(.is-visible) p,
+  :global(.reveal-ready) .era1970 .seventiesCopy .text[data-reveal]:global(.is-visible) p{transition-delay:.9s}
+}
+
 /* Phase 4: measured compositions of the 375 px frame. */
 .mobileBreak{display:none}
 .background picture{display:block}
 @media(max-width:767px){
   .era1940 .background{left:calc(50% - 576.5px);width:1121px}
   .era1950 .background{left:calc(50% - 520.5px);width:1040px}
-  .era1960 .background{left:calc(50% - 187.5px);width:558px}
+  .era1960 .background{left:0;width:max(100%,558px)}
   .era1950{padding-top:56px;padding-bottom:36px}
   .era1950 .intro>.photo{width:260px}
   .era1950 .heading h2,.era1960 .heading h2{font-size:19px;line-height:21px}
@@ -139,15 +163,17 @@
   .era1960 .signature{margin-top:0}
 }
 @media(min-width:768px) and (max-width:1199px){
-  .era1940 .background{left:calc(50% - 591px);width:1040px}
-  .era1950 .background{left:calc(50% - 467px);width:1040px}
-  .era1960 .background{left:calc(50% - 384px);width:1040px}
+  .era1940 .background{left:min(0px,calc(50% - 591px));right:0;width:auto;min-width:1040px}
+  .era1950 .background{left:min(0px,calc(50% - 467px));right:0;width:auto;min-width:1040px}
+  .era1960 .background{left:0;right:0;width:auto;min-width:1040px}
   .era1940{min-height:1013px;padding-bottom:112px}
   .era1950{padding-bottom:122px}
   .era1960{padding-top:223px;padding-bottom:70px}
 }
 @media(min-width:1200px){
   .era1950{padding-bottom:147px}
+  .era1950 .fifties{width:1017px;grid-template-columns:500px 400px;gap:117px;margin-left:max(40px,calc((100% - 1443px)/2 + 256px));margin-right:0}
+  .era1950 .fifties>.photo{width:400px;max-width:none}
   .era1960{padding-top:385px;padding-bottom:139px}
   .era1960>.heading{margin-bottom:118px}
   .era1960 .portrait{margin-top:-111px}
@@ -169,7 +195,10 @@
 .era1970 .mosaic{z-index:2}
 .era1970 .mosaic img{transform-origin:center top}
 .goldText{color:#FFC72D}
+@media(min-width:768px){.era1960 .coach h3{letter-spacing:.04em}}
 .era1980>.heading,.era1980 .champions{position:relative;z-index:2}
+@media(min-width:768px) and (max-width:1199px){.era1980>.heading{box-shadow:0 0 0 20px var(--red)}}
+@media(min-width:1200px){.era1980>.heading{box-shadow:0 0 0 30px var(--red)}}
 .era2000 .intro{position:relative;z-index:2}
 .era2000 .strip{position:relative;z-index:0;margin-bottom:0}
 .era2000 .follow{z-index:1;margin-top:-35px}
@@ -230,9 +259,10 @@
   .era1960 .signature{margin-top:0}
 
   .era1970{padding-top:63px}
-  .era1970 .intro{margin-left:40px;margin-right:0;margin-bottom:110px}
+  .era1970 .intro{margin-left:40px;margin-right:0;margin-bottom:54px}
   .era1970 .intro>.photo{width:578px}
   .era1970 .intro>.heading{position:relative;left:-1px;width:577px}
+  .era1970 .intro>.heading p{font-size:18px;line-height:27px;letter-spacing:.03em}
   .era1970 .seventiesCopy{margin-bottom:0}
   .era1970 .seventiesCopy .text h3{margin-bottom:14px}
   .era1970 .seventiesCopy .text p{letter-spacing:.03em}
@@ -245,7 +275,7 @@
   .era1980 .heading p{width:486px;margin-left:50px;font-size:16px;line-height:23px;letter-spacing:.03em}
   .era1980 .champions{position:absolute;top:1027px;left:0;width:100%;max-width:none;padding:0}
   .era1980 .olympicRings{position:relative;left:10px;margin-bottom:20px}
-  .era1980 .champions h3{width:633px;margin:0 0 11px 78px}
+  .era1980 .champions h3{width:633px;margin:0 0 11px 78px;letter-spacing:.69em}
   .era1980 .champions>p{width:633px;max-width:none;margin:0 0 40px 78px;font-size:16px;line-height:23px;letter-spacing:.03em}
   .era1980 .championGrid{left:10px}
   .era1980 .championGrid figcaption{font-size:18px;line-height:24.5px;margin-top:10px}
@@ -274,10 +304,10 @@
   .era2010 .intro>.photo{position:absolute;left:32px;top:512px;width:340px;height:218px;max-width:none;overflow:hidden}
   .era2010 .intro>.photo picture{position:absolute;left:-64px;top:-14px;width:404px;height:276px}
   .era2010 .intro>.photo img{width:100%;height:100%;object-fit:cover}
-  .era2010 .intro>.heading{position:absolute;left:38px;top:730px;width:700px;margin:0}
+  .era2010 .intro>.heading{position:absolute;left:88px;top:765px;width:600px;margin:0}
   .era2010 .heading h2 span{font-size:70px;line-height:63px;margin-bottom:10px}
-  .era2010 .heading h2{font-size:28px;line-height:29px;margin-bottom:40px}
-  .era2010 .heading p{width:600px;margin-left:50px;font-size:16px;line-height:23px;letter-spacing:.03em}
+  .era2010 .heading h2{font-size:28px;line-height:29px;margin-bottom:10px}
+  .era2010 .heading p{width:600px;margin-left:0;font-size:16px;line-height:23px;letter-spacing:.03em}
   .era2010 .follow>.medalPhoto{position:absolute;left:398px;top:1108px;width:340px;height:218px;margin:0}
   .era2010 .follow>.medalPhoto .photo{width:340px;height:218px;max-width:none;overflow:hidden}
   .era2010 .follow>.medalPhoto .photo picture{position:absolute;left:-4px;top:-92px;width:427px;height:405px}
@@ -317,3 +347,39 @@
   .era2020 .text p,.era2020 .extra{font-size:16px;line-height:23px;letter-spacing:.03em}
   .era2020 .extra{position:absolute;left:calc(var(--content-x) + 448px);top:737px;width:444px;margin:0}
 }
+
+/* Keep the coach's name below the overlapping portrait. */
+@media(min-width:768px){.era1960 .portrait{margin-bottom:8px}}
+
+.era1940 .heading p,.era1940 .text p{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.heading h2 > span:first-child{display:flex;align-items:center;text-transform:none}
+.heading h2 > span:first-child > .decadeSuffix{display:inline-block;position:relative;inset:auto;width:.28em;height:.44em;line-height:1;margin:0 0 0 .01em}
+.decadeSuffix svg{display:block;width:100%;height:100%;fill:currentColor}
+.heading h2 .srOnly{position:absolute;display:block;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;text-transform:none}
+
+@media(min-width:1200px){
+  .era1940 .intro>.photo figcaption{width:max-content;max-width:none;white-space:nowrap}
+  .era1940 .intro>.photo figcaption br{display:none}
+}
+
+@media(min-width:1200px){
+  .era1970 .intro{
+    width:min(1208px,calc(100% - max(40px,calc((100% - 1443px)/2 + 172px)) - 30px));
+    grid-template-columns:minmax(0,578fr) minmax(0,577fr);
+  }
+}
+
+/* Let the irregular red tiles sit over the rink, with the solid red starting
+   only after the preceding section ends. */
+.era1970{z-index:1}
+.era1980{
+  --mosaic-overlap:clamp(250px,17vw,450px);
+  z-index:2;
+  margin-top:calc(-1 * var(--mosaic-overlap));
+  background:linear-gradient(to bottom,transparent var(--mosaic-overlap),var(--red) var(--mosaic-overlap));
+}
+@media(min-width:768px) and (max-width:1199px){
+  .era1980{--mosaic-overlap:180px}
+  .era1980 .mosaic{top:0}
+}
+@media(max-width:767px){.era1980{--mosaic-overlap:80px}}

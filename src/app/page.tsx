@@ -4,6 +4,7 @@ import designContent from '@/data/designContent.json';
 import { ShareLinks } from '@/components/share-links';
 import { HistorySection } from '@/components/history-section';
 import { VideoPlayer } from '@/components/video-player';
+import { HeroArtwork } from '@/components/hero-artwork';
 import { decades } from '@/data/history';
 import s from './page.module.css';
 
@@ -12,9 +13,7 @@ export default function Home() {
     <Controls />
     <section className={s.hero} aria-label="80 лет отечественному хоккею">
       <h1 className={s.visuallyHidden}>80 лет отечественному хоккею. Хоккей объединяет.</h1>
-      <Media className={s.heroImage} src="/assets/brand/hero.avif" alt="Юбилейная эмблема 80 лет и хоккеисты на льду. Хоккей объединяет." fetchPriority="high" loading="eager" sizes="100vw" />
-      <img className={s.heroTitle} src="/assets/brand/hero-title.webp" alt="" aria-hidden="true" width="2880" height="1732" loading="eager" />
-      <img className={s.heroSubtitle} src="/assets/brand/hero-subtitle.webp" alt="" aria-hidden="true" width="2880" height="1732" loading="eager" />
+      <HeroArtwork />
     </section>
     <section className={s.intro} aria-labelledby="intro-title" data-reveal-players>
       <Media className={s.introLeft} src="/assets/Start/w4-1.avif" alt="Хоккеист прошлых лет" sizes="(max-width: 767px) 55vw, 25vw" />
@@ -31,9 +30,9 @@ export default function Home() {
         <div className={s.videoColumns}><p>Тула и Тольятти, Челябинск <br className={s.mobileVideoBreak} />и Красноярск, Омск и Новосибирск — <br className={s.mobileVideoBreak} />во всех городах матчи сборной <br className={s.mobileVideoBreak} />проходили при аншлагах, доказывая, <br className={s.mobileVideoBreak} />что в новых условиях интерес к хоккею <br className={s.mobileVideoBreak} />в стране не только не ослабевает, <br className={s.mobileVideoBreak} />но и постоянно растет.</p><p>{designContent['4231:6095'][0]}</p></div>
         <VideoPlayer />
       </div>
-      <div className={s.videoImage} data-reveal><Media src="/assets/2020/footer.avif" alt="Болельщики поддерживают сборную России на хоккейной арене" sizes="100vw" /></div>
+      <div id="geography-image" className={s.videoImage} data-reveal><Media src="/assets/2020/footer.avif" alt="Болельщики поддерживают сборную России на хоккейной арене" sizes="100vw" /></div>
     </section>
-    <section id="siberia" className={s.siberia} aria-labelledby="siberia-title"><Media className={s.siberiaCornerStart} src="/assets/2020/mask-group-13.avif" alt="" sizes="265px" /><Media className={s.siberiaCornerEnd} src="/assets/2020/mask-group-14.avif" alt="" sizes="265px" /><div className={s.lateRow}><div className={s.photoPair} data-reveal><Media src="/assets/2020/879.avif" alt="Хоккеисты с кубком" /><Media src="/assets/2020/3-1.avif" alt="Матч на Сибирь-Арене" /></div><div data-reveal data-reveal-heading><h2 id="siberia-title">Прирастать Сибирью</h2><p>{designContent['4231:6111'][0]}</p></div></div></section>
+    <section id="siberia" className={s.siberia} aria-labelledby="siberia-title"><Media className={s.siberiaCornerStart} src="/assets/2020/mask-group-13.avif" alt="" sizes="265px" /><Media className={s.siberiaCornerEnd} src="/assets/2020/mask-group-14.avif" alt="" sizes="265px" /><div className={s.lateRow}><div className={s.photoPair} data-reveal><Media src="/assets/2020/879.avif" alt="Хоккеисты с кубком" /><Media src="/assets/2020/3-1.avif" alt="Матч на Сибирь-Арене" /></div><div data-reveal data-reveal-heading><h2 id="siberia-title">Прирастать Сибирью</h2>{designContent['4231:6111'][0].split('\n').map((paragraph, index) => <p key={index}>{paragraph}</p>)}</div></div></section>
     <section id="future" className={s.future} aria-labelledby="future-title"><div className={s.futureIntro} data-reveal data-reveal-heading><h2 id="future-title">Будущее уже здесь</h2><p>{designContent['4231:6116'][0]}</p></div><div className={s.futureMedia}><Media className={s.futureStrip} src="/assets/2020/mask-group-11.avif" alt="" sizes="(min-width: 768px) and (max-width: 900px) 1864px, 100vw" /><div className={s.futurePhotos} data-reveal><Media src="/assets/2020/1-1.avif" alt="Болельщики поддерживают молодых хоккеистов" /><Media src="/assets/2020/1.avif" alt="Команда на Кубке Будущего" /></div></div><p className={s.futureEnd}>{designContent['4231:6050'][0]}</p></section>
     <footer className={s.footer}>
       <p className={s.finalTitle} data-reveal data-reveal-heading>Отныне — официально!</p>
